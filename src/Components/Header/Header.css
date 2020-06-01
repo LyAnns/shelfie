@@ -1,0 +1,61 @@
+.Header {
+    background-color: #ab2a19;
+    /* height: 10vh; */
+    color: white;
+   
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+    align-content: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;  
+}
+
+.Header-logo {
+   /* height: 80px;
+   width: 80px; */
+   display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    margin-left: 40px;
+}
+.Header-logo-img {
+    padding: 25px;
+    width: 50px;  
+    height: auto;
+}
+
+.Header-title {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    margin: 0 10px;
+}
+
+.Header-title-text {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+.Header-button {
+    color: black;
+    font-weight: bolder;
+    font-size: medium;
+    background-color: #ed6b5a;
+    border-style: none;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0 10px;
+    text-decoration: none;
+}
